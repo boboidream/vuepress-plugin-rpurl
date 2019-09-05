@@ -36,11 +36,11 @@ function replaceNav(navArr, options) {
 module.exports = (options, ctx) => {
   /**
  * Options for vuepress-plugin-autobar
- * 01.nav.xxx => xxx
+ * nav.02.xxx => xxx
  * 01._-xxx => xxx
  */
   if (JSON.stringify(options) === '{}') {
-    options = [[/\d*[\.\-_]*nav[\.\-_]*/gi, ''], [/\d+[\.\-_]*/gi, '']]
+    options = [[/nav[\.\-_]*\d*[\.\-_]*/gi, ''], [/\d+[\.\-_]*/gi, '']]
   } else if (options.length === 1) {
     options = [options]
   }

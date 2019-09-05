@@ -19,10 +19,10 @@ module.exports = {
 
 The Default configuration is for vuepress-plugin-autobar, it clean the cumbersome parameter.
 
-Default Rule: `[[/\d*[\.\-_]*nav[\.\-_]*/gi, ''], [/\d+[\.\-_]*/gi, '']]`
+Default Rule: `[[/nav[\.\-_]*\d*[\.\-_]*/gi, ''], [/\d+[\.\-_]*/gi, '']]`
 
 * before use:
-`/01-nav.js/10-core/mian-xiang-dui-xiang/mian-xiang-dui-xiang.html`
+`/nav.10.js/10-core/mian-xiang-dui-xiang/mian-xiang-dui-xiang.html`
 
 * after use:
 `/js/core/mian-xiang-dui-xiang/mian-xiang-dui-xiang.html`

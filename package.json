@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-rpurl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replace VuePress Blog URL of Pages and NavLinks.",
   "main": "index.js",
   "scripts": {
