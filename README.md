@@ -14,8 +14,6 @@ npm install boboidream/vuepress-plugin-rpurl -D
 
 module.exports = {
   plugins: ['rpurl']
-  // or multiple rules
-  // plugins: ['rpurl', [[/regex1/, 'world'], [/regex2/gi, 'world2']]]
 }
 ```
 
