@@ -61,7 +61,6 @@ module.exports = (options, ctx) => {
       const pathStr = decodeURIComponent($page.path)
 
       $page.path = replaceAll(pathStr, options)
-      console.log($page.path)
     }
   }
 }

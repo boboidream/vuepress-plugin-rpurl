@@ -2,7 +2,7 @@
 
 ## install
 ```bash
-npm install boboidream/vuepress-plugin-rpurl
+npm install boboidream/vuepress-plugin-rpurl -D
 ```
 
 ## Use
