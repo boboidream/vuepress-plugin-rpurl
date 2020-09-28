@@ -27,7 +27,7 @@ function replaceNav(navArr, options) {
       nav.link = replaceAll(nav.link, options)
     }
     if (nav.items) {
-      replaceNav(nav.items)
+      replaceNav(nav.items,options)
     }
   })
 }
