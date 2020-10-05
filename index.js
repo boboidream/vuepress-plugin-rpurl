@@ -40,7 +40,7 @@ module.exports = (options, ctx) => {
  * 01._-xxx => xxx
  */
   if (JSON.stringify(options) === '{}') {
-    options = [[/nav[\.\-_]*\d*[\.\-_]*/gi, ''], [/\d+[\.\-_]*/gi, '']]
+    options = [[/nav[\.\-_]*\d*[\.\-_]*/gi, ''], [/\d+[\.\-_]+(?!html)/gi, '']]
   } else if (options.length === 1) {
     options = [options]
   }
