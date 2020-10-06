@@ -41,7 +41,7 @@ module.exports = (options, ctx) => {
  */
   if (JSON.stringify(options) === '{}') {
     options = [[/nav[\.\-_]*\d*[\.\-_]*/gi, ''], [/\d+[\.\-_]+(?!html)/gi, '']]
-  } else if (options.length === 1) {
+  } else if (!(options[0] instanceof Array)) {
     options = [options]
   }
   
